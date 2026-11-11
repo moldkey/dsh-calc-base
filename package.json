@@ -1,0 +1,16 @@
+{
+  "name": "@liangjiehappy/dsh-calc-base",
+  "version": "0.1.0",
+  "description": "2/8/10/16 进制互转，支持任意进制（2-36）。看内存、调协议、解编码时用。纯本地计算，不联网。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "calc", "calculator", "base", "计算器"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-calc-base.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}
